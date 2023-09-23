@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+
+        android:id="@+id/cardview4"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview3" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cartimage4"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/muttonbiryani"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem4"
+                android:layout_width="155dp"
+
+                android:layout_height="32dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:text="Mutton Biryani"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/cartimage4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitemprice4"
+                android:layout_width="73dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="56dp"
+                android:text="Rs.400"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cartimage4"
+                app:layout_constraintTop_toBottomOf="@+id/cartitem4"
+                app:layout_constraintVertical_bias="0.661" />
+
+            <Button
+                android:id="@+id/addtocartbutton4"
+                android:layout_width="104dp"
+                android:layout_height="55dp"
+                android:text="Add to cart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.157"
+                app:layout_constraintStart_toEndOf="@+id/cartitem4"
+                app:layout_constraintTop_toTopOf="@+id/cartitem4"
+                app:layout_constraintVertical_bias="0.709" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview3"
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="396dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/cartimage3"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vegbiryani"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem3"
+                android:layout_width="155dp"
+
+                android:layout_height="32dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:text="veg Biryani"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/cartimage3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitemprice3"
+                android:layout_width="73dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="56dp"
+                android:text="Rs. 270"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cartimage3"
+                app:layout_constraintTop_toBottomOf="@+id/cartitem3"
+                app:layout_constraintVertical_bias="0.661" />
+
+            <Button
+                android:id="@+id/addtocartbutton"
+                android:layout_width="104dp"
+                android:layout_height="55dp"
+                android:text="Add to cart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.157"
+                app:layout_constraintStart_toEndOf="@+id/cartitem3"
+                app:layout_constraintTop_toTopOf="@+id/cartitem3"
+                app:layout_constraintVertical_bias="0.709" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview2"
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="396dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/cartimage2"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dum"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem2"
+                android:layout_width="155dp"
+
+                android:layout_height="32dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:text="Dum Biryani"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/cartimage2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitemprice2"
+                android:layout_width="73dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="56dp"
+                android:text="RS.300"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cartimage2"
+                app:layout_constraintTop_toBottomOf="@+id/cartitem2"
+                app:layout_constraintVertical_bias="0.661" />
+
+            <Button
+                android:id="@+id/addtocartbutton2"
+                android:layout_width="104dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="20dp"
+                android:text="Add to cart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toEndOf="@+id/cartitem2"
+                app:layout_constraintTop_toTopOf="@+id/cartitem2"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="396dp"
+            android:layout_height="124dp">
+
+            <Button
+                android:id="@+id/addtocartbutton3"
+                android:layout_width="104dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="32dp"
+                android:text="Add to cart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cartitem"
+                app:layout_constraintVertical_bias="0.142" />
+
+            <ImageView
+                android:id="@+id/cartimage"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/spcb"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem"
+                android:layout_width="144dp"
+
+                android:layout_height="57dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="16dp"
+                android:text="special chicken   Biryani"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/cartimage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitemprice"
+                android:layout_width="73dp"
+                android:layout_height="24dp"
+                android:layout_marginBottom="16dp"
+                android:text="350"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/cartitem"
+                app:layout_constraintStart_toStartOf="@+id/cartitem" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
